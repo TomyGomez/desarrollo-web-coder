@@ -1,0 +1,180 @@
+/* ESTILO DEL HEADER Y NAVBARS */
+/* logo de la pagina */
+.headerAboutUs {
+  height: 8%;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: rgb(156, 154, 141);
+  flex-direction: row;
+}
+
+.contenedorImg {
+  margin: -2% 0;
+  display: flex;
+  align-items: start;
+  width: 4rem;
+  height: 4rem;
+}
+
+/* contenedor foto logo */
+.divFotoLogo {
+  display: flex;
+  justify-content: left;
+  width: 50%;
+  font-family: "Nunito", sans-serif;
+}
+
+.Titulo {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(92, 66, 2);
+  background-color: #bbaf9c;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+
+/* ul de la nav */
+.navbar_enlaces {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+}
+
+/* estos son los nav  */
+.navbar {
+  background-color: #bbaf9c;
+  padding: 0;
+  width: 100%;
+}
+
+/* estos son los A de las nav bar */
+.navbar_enlaces_links_texto {
+  text-decoration: none;
+  padding: 0 1.5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: rgb(92, 66, 2);
+}
+
+/* estos son los li de los nav bar */
+.navbar_enlaces_Div {
+  display: flex;
+  justify-content: right;
+  width: 50%;
+  align-items: center;
+}
+
+.navbar_enlaces_links {
+  display: inline-block;
+  list-style-type: none;
+  justify-content: end;
+  height: 30%;
+}
+
+.mainAboutUS {
+  display: flex;
+  height: 80%;
+  justify-content: center;
+}
+
+.DivTituPara {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.titulo_aboutUs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: rgb(114, 82, 0);
+}
+
+.divTitulo {
+  display: flex;
+  justify-content: left;
+  height: 4rem;
+  background-color: rgb(156, 154, 141);
+  font-family: "Nunito", sans-serif;
+}
+
+.clasImgIA {
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+}
+
+.p_aboutUs {
+  justify-content: center;
+  width: 100%;
+  padding: 4px;
+  background: linear-gradient(to bottom, rgb(156, 154, 141), #bbaf9c, rgb(156, 154, 141));
+  font-family: "Nunito", sans-serif;
+}
+
+.contenedorImgIA {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(to bottom, rgb(156, 154, 141), #bbaf9c);
+}
+
+.clasImgtxt {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_faq {
+  background-color: rgb(221, 180, 65);
+}
+
+.footerAboutUs {
+  height: 5%;
+  width: 100%;
+  display: flex;
+}
+
+.navbar_faq {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.i_img {
+  display: flex;
+  color: #483101;
+  width: 100%;
+  justify-content: end;
+}
+
+.navbar_enlaces_faq {
+  width: 50%;
+}
+
+.div_i {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar_enlaces_links_faq {
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=estilos.css.map */

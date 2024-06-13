@@ -9,32 +9,52 @@ html{
 
 /* ESTILO DEL HEADER Y NAVBARS */
 /* logo de la pagina */
-.contenedorImg{
-    width: 4%;
-    position: absolute;
-    margin: -2rem 0;
-    
+
+.classImgLogo{
+    width: 10%;
 }
+
+
+.contenedorImg{
+    margin: -2% 0;
+    display: flex;
+    align-items: start;
+    width: 80%;    
+}
+
+/* titulo inicio */
+
+.Titulo{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(92, 66, 2);
+    background-color: #bbaf9c;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 25%;
+
+}
+
 
 /* ul de la nav */
 .navbar_enlaces{
+    display: flex;
     list-style-type: none;
-    text-align: right;
+    width: 100%;
 }
 
 /* estos son los nav  */
 .navbar_faq{
-    background-color: rgb(221, 180, 65) ;
+    background-color: rgb(221, 180, 65);
     list-style-type: none;
-    padding: 1.5rem;
     text-align: left;
+    display: flex;
+    height: 20%;
 }
 .navbar{
-    background-color: rgb(221, 180, 65);
-    padding: 1.5rem;
-    
-
-
+    background-color: #bbaf9c;
+    padding: 0;
 }
 
 /* estos son los A de las nav bar */
@@ -42,7 +62,9 @@ html{
 .navbar_enlaces_links_texto{
     text-decoration: none;
     padding: 0 1.5rem;
-    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
 }
 .navbar_enlaces_links_faq{
     text-decoration: none;
@@ -53,11 +75,14 @@ html{
 /* estos son los li de los nav bar  */
 .navbar_enlaces_links{
     display: inline-block;
-
+    list-style-type: none;
+    justify-content: end;
 }
 
 .navbar_enlaces_liFaq{
-    display: inline-block;
+    text-align: start;
+    position: static;
+    
 
 }
 
@@ -65,15 +90,15 @@ html{
 
 
 main{
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(156, 154, 141);
 }
 
 .card-videojuegos{
-    background-color: rgb(153, 153, 153);
+    background-color: rgba(153, 153, 153, 0.562);
     margin: 1rem 5rem;
     width: 20rem;
-    padding: 1rem 5rem;
     max-height: 100%;
+    border-radius: 2%;
 }
 
 
@@ -86,7 +111,6 @@ main{
 /* estilo dentro de la card  */
 .card-videojuegos img{
     width: 100%;
-
 }
 
 .card{
@@ -100,13 +124,37 @@ main{
 
 }
 
+/* el contenedor del valor del juego */
+.classH5Pruductos{
+    color: rgb(6, 7, 6);
+    /* width: 50%; */
+    justify-content: center;
+}
+.ColorDEl{
+    color: rgb(128, 128, 128);
+}
+.classH3Productos{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.aProductos{
+    border-radius: 20%;
+}
+
 .card a{
     
     text-decoration: none;
-    border-radius: 2%;
-    background-color: rgb(114, 82, 0);
-    width: 25%;
+    border-radius: 15%;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(244 233 176);
+    width:30%;
     color: black;
+    font-family: 'Nunito', sans-serif;
+    margin: 1%;
+    font-weight: 700;
 
 }
 
@@ -115,7 +163,11 @@ main{
 }
 
 .card_button{
-    margin-top: 10%; 
+    margin-top: 10%;
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+
 }
 .card h3{
     margin-bottom: 1rem;
@@ -127,10 +179,10 @@ main{
 .card_inicio{
 
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     padding: 1rem;
-}
+    border-radius: 2%;}
 
 .card_inicio img{
     width: 30%;
@@ -141,38 +193,230 @@ main{
 }
 
 .card_inicio p {
-    margin: 0 2rem;
+    margin:  2rem;
     padding: 3rem;
-    background-color: #bbaf9c;
-    border-radius: 1.5%;
-    color: rgb(92, 66, 2);
+    background-color: #7a7a7931;
+    color: rgb(255, 255, 255);
+}
+/* Titulo Index */
+.titulo_inicio{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    width: 20%;
+    text-align: center;
+    background-color: #7a7a7931;
 }
 
-.titulo_inicio{
+.TituloBienvenida{
+    font-size: 20px;
+    color: rgb(92, 66, 2);
+    background-color: #7a7a7931;
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+
+}
+
+/* imagenes */
+
+.ImagenInicio{
+    display: flex;
+    background-color: #7a7a7931;
+    margin: 0 2rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.textInicio{
+    background-color: #7a7a7931;
+    border: 0;
+
+}
+.pTextoInicio{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
     text-align: center;
 }
 
 /* estilando contacto form */
 
+.mainContacto{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(156, 154, 141);
+}
+
+.contacto_h1{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    background-color: #7a7a7931;
+
+}
+/* .bodyContact{
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+} */
+/* estilando section informacion Contacto */
+
+.SecInformacion{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .ulPreguntasFreq{
+
+} */
+.navbar_enlaces_liFaq{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
+}
+
 
 .container{
 
     display: flex;
+    height: 45rem;
     flex-direction: row;
-    margin: 0 2rem;
-    padding: 1rem;
+    margin: 0 3rem;
+    padding: 2rem;
     background-color: #bbaf9c;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
     
 }
 
 .contenedor_form{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 100%;   
+    justify-content: start;
+    width: 25%;
+    padding: 1rem;
+    background-color: #7a7a7931;
+    background-color: #bbaf9c;
+    
+
+}
+.divForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #7a7a7931;
+    border-radius: 2%;
+    
+
+}
+.limpiar{
+    margin: 1%;
+    background-color: #bbaf9c;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
+}
+
+.enviar{
+    margin: 1%;
+    background-color: #bbaf9c;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
+}
+.DesplegableForm{
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
+}
+
+/* id Formulario Contacto*/
+
+#MasterContainer{
+    padding: 1rem;
+    background-color: #7a7a7931;
+}
+
+#idDivNombre{
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
+}
+
+#idDivApellido{
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
+}
+
+#idDivMail{
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
+}
+
+#idParrafo{
+    height: 40%;
+    padding: 0;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
 
 }
 
+#idDivNacionalidad{
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
+}
+
+#idDivEncuesta{
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
+}
+
+#idBotones{
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(92, 66, 2);
+}
+
+
+
+
+
+/*  */
 .imagen_contacto{
     width: 20%;
     margin-left: 50%;
@@ -186,12 +430,20 @@ main{
 .contacto_p{
     margin-bottom: 1rem;
     text-align: center;
+    border: 2px #bbaf9c;
 }
 
 .contenedor_form textarea{
     height: 40%;
+    width: 100%;
+    border-radius: 2%;
 }
 
+.hrContact{
+    height: 10px;
+    background-color: #bbaf9c;
+    margin: 0;
+}
 
 /* estilando abousUs */
 
@@ -224,6 +476,52 @@ main{
 /* redes sociales  */
 
 .i_img{
-    text-align: right;
-    margin: -1.3rem 0;
+    display: flex;
+    color: #483101;
+    justify-content: space-evenly;
+    
+}
+
+.navbar_enlaces_faq{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.footerPadre{
+    height: 5%;
+    width: 100%;
+
+}
+
+/* titulo debajo  */
+/* .TituloDos{
+    text-align: left;
+    margin-left: 10%;
+    font-size: 20px;
+    color: rgb(92, 66, 2);
+} */
+/* padre logo  */
+/* .classImgLogo{
+    position: relative;
+    justify-content: left;
+    top: 0.5rem;
+    margin: 0;
+    width: 20%;
+
+} */
+
+.divFotoLogo{
+    display: flex;
+    justify-content: left;
+    width: 50%;
+
+}
+
+.navbar_enlaces_Div{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    align-items: center;
 }

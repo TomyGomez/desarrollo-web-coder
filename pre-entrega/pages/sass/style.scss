@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'headerAboutUs';
+@import 'mainAboutUs';
+@import 'footerAboutUs';
+
+
+
+// parametros para los contenedores
+// @mixin container($ancho,$alto,$colorFondo,$colorTxt,$fuente){
+
+//     width: $ancho;
+//     height: $alto;
+//     background-color: $colorFondo;
+//     color: $colorTxt;
+//     font-family: $fuente;
+// }
+
+*{
+    padding: $padding;
+    margin: $margin;
+}
+
+// .mainAboutUS{
+//     @include container(100, 80, $color-fondo,$color-Txt, $principal-Font);
+    
+// }
+
+// .headerAboutUs{
+//     @include container(100, 20, $color-nav-header,$color-Txt , $principal-Font);
+// }
+
+// .classImgLogo{
+//     @include container(10,$ancho-logo);
+// }
+
+
